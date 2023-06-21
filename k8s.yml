@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: udacity-p4
+spec:
+  containers:
+    - name: udacity-p4
+      image: dongpv/udacity-p4:latest
